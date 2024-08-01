@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+.Seciton {
+    width: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: var(--grid-columns-sp);
+    grid-auto-rows: var(--grid-rows-sp);
+}
+
+@media (min-width: 561px) {
+    .Grid {
+        grid-template-columns: var(--grid-columns-tb);
+        grid-auto-rows: var(--grid-rows-tb);
+    }
+    
+}
+
+@media (min-width: 1081px) {
+    .Grid {
+        grid-template-columns: var(--grid-columns-pc);
+        grid-auto-rows: var(--grid-rows-pc);
+    }
+
+    .About {
+        background-color: #222;
+        grid-column: 1/-1;
+        grid-row: span 12;
+        color: white;
+        display: grid;
+        grid-template-columns: var(--grid-columns-pc);
+        grid-auto-rows: var(--grid-rows-pc);
+    }
+
+}
