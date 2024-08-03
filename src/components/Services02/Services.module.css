@@ -1,0 +1,26 @@
+.Section {
+    padding: 0vw 0 20vw 0;
+    width: 100%;
+    color: #333;
+    font-family: var(--font-family-gothic);
+}
+
+
+
+@media (min-width: 561px) {
+    .Section {
+        padding: 0 0 10vw 0;
+    }
+   
+
+    
+}
+
+@media (min-width: 1081px) {
+    .Grid {
+        grid-template-columns: var(--grid-columns-pc);
+        grid-auto-rows: var(--grid-rows-pc);
+    }
+
+
+}
