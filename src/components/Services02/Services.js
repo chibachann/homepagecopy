@@ -8,16 +8,20 @@ const Services = () => {
                 <div className={styles.Title}>
                     <h1>SERVICES</h1>
                 </div>
-                <p>
-                    お客様に誠実に。Webサイトに情熱を。
-                    お客様の満足よりも更に高い位置の喜びを感じて頂けるホームページ制作を目指します。
-                    価格を超えるデザインとSEO対策を中心とした運用サポートによってビジネスを加速させるお手伝いをいたします。
-                    マーケティングなど各種プロモーションを通して、より付加価値の高いWebサービスを提供していきます。
-                    お客様の課題に取り組み、目に見える成果を生み出しています。
-                </p>
+                <div className={styles.Text}>
+                    <p>
+                        お客様に誠実に。Webサイトに情熱を。
+                        お客様の満足よりも更に高い位置の喜びを感じて頂けるホームページ制作を目指します。
+                        価格を超えるデザインとSEO対策を中心とした運用サポートによってビジネスを加速させるお手伝いをいたします。
+                        マーケティングなど各種プロモーションを通して、より付加価値の高いWebサービスを提供していきます。
+                        お客様の課題に取り組み、目に見える成果を生み出しています。
+                    </p>
+                </div>
                 <div className={styles.Services}>
+                    
                     <div className={styles.Service}>
                         <h2>PRODUCTION</h2>
+                        <img src="/images/settings.svg"/>
                         <h3>新規製作・リニューアル</h3>
                         <p>作成するホームページは、スマートフォン対応のレスポンシブデザインが
                             標準仕様なので追加費用が発生しません。
@@ -25,6 +29,7 @@ const Services = () => {
                     </div>
                     <div className={styles.Service}>
                         <h2>DEVELOPMENT</h2>
+                        <img src="/images/settings.svg"/>
                         <h3>CMSの設置・カスタマイズ</h3>
                         <p>
                             お客様のご要望に合わせたカスタマイズ機能をご提供することも可能ですので、
@@ -33,6 +38,7 @@ const Services = () => {
                     </div>
                     <div className={styles.Service}>
                         <h2>MANAGEMENT</h2>
+                        <img src="/images/settings.svg"/>
                         <h3>リスティング・SEO対策</h3>
                         <p>
                             検索広告やSNS広告などリスティング広告の活用、
@@ -44,6 +50,7 @@ const Services = () => {
                         <h2>
                             CUSTOMERS
                         </h2>
+                        <img src="/images/settings.svg"/>
                         <h3>
                             Webサイト保守・運営
                         </h3>
