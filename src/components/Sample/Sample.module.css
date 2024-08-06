@@ -31,3 +31,21 @@
     font-weight: 600;
     color: #666;
 }
+
+@media (min-width:561px) {
+    .Section {
+        padding: 5vw 0;
+    }
+
+    .Grid {
+        grid-template-columns: var(--grid-columns-tb);
+        grid-auto-rows: var(--grid-rows-tb);
+    }
+
+    .Title h1 {
+        font-size: 7vw;
+    }
+    .Title h2 {
+        font-size: 3vw;
+    }
+}

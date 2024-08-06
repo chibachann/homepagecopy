@@ -82,7 +82,7 @@
     }
     .Title {
         grid-column: 1/7;
-        grid-row: span 5;
+        grid-row: span 4;
         align-items: center;
         align-self: start;
         justify-self: end;
@@ -91,12 +91,12 @@
         font-size: 2vw;
     }
     .Title h2 {
-        font-size: 3.4vw;
+        font-size: 3vw;
     }
     .Text {
         grid-column: 7/-1;
-        grid-row: span 6;
-        font-size: 1.8vw;
+        grid-row: span 4;
+        font-size: 1.5vw;
     }
     .TextCards {
         grid-column: 1/-1;
@@ -106,7 +106,7 @@
     }
     .TextCards p{
         box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        font-size: 2vw;
+        font-size: 1.7vw;
     }
 }
 

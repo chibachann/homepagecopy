@@ -79,11 +79,69 @@
 
 @media (min-width: 561px) {
     .Section {
-        padding: 0 0 10vw 0;
+        padding: 5vw 0;
     }
    
+    .Grid {
+        grid-template-columns: var(--grid-columns-tb);
+        grid-auto-rows: var(--grid-rows-tb);
+    }
 
+    .Title {
+        grid-row: span 3;
+    }
+
+    .Title h1 {
+        font-size: 6.5vw;
+    }
+
+    .Text {
+        grid-column: 1/-1;
+        width: 60%;
+        grid-row: span 4;
+    }
+
+    .Text p {
+        font-size: 1.5vw;
+    }
+
+    .Services {
+        grid-column: 1/-1;
+        grid-row: span 15;
+        height: 100%;
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     
+    .Service {
+        
+        justify-self: center;
+        width: 85%;
+        display: grid;
+        grid-template-rows: 2fr 10vw 1fr 3fr;
+    }
+    .Service img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .Service h2 {
+        display: grid;
+        place-items: center;
+        font-size: 2.5vw;
+    }
+    .Service h3 {
+        place-self: center;
+        width: 85%;
+        font-size: 2vw;
+    }
+    .Service p {
+        justify-self: center;
+        width: 85%;
+        font-size: 1.5vw;
+        line-height: 1.5;
+    }
 }
 
 @media (min-width: 1081px) {
