@@ -152,11 +152,32 @@
     
 }
 
-@media (min-width: 1081px) {
+@media (min-width:1081px) {
     .Grid {
         grid-template-columns: var(--grid-columns-pc);
         grid-auto-rows: var(--grid-rows-pc);
     }
+    .Title h1 {
+        font-size: 2.5vw;
+    }
+    .Title h2 {
+        font-size: 1.5vw;
+    }
 
+    .Services {
+        width: 80%;
+        grid-row: span 4;
+    }
 
+    .Service {
+        padding: 3vw 0 0 0;
+        display: grid;
+        grid-auto-rows: var(--grid-rows-pc);
+    }
+    .Service h3 {
+        font-size: 1.5vw;
+    }
+    .Text {
+        font-size: 1.2vw;
+    }
 }

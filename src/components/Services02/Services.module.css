@@ -114,8 +114,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
     
-    .Service {
-        
+    .Service {  
         justify-self: center;
         width: 85%;
         display: grid;
@@ -150,5 +149,28 @@
         grid-auto-rows: var(--grid-rows-pc);
     }
 
-
+    .Title h1 {
+        font-size: 4vw;
+    }
+    .Text p {
+        font-size: 1.3vw;
+    }
+    .Services {
+        width: 75%;
+        grid-row: span 12;
+        row-gap: 2vw;
+        column-gap: 2vw;
+    }
+    .Service {
+        width: 100%;
+    }
+    .Service h2 {
+        font-size: 1.7vw;
+    }
+    .Service h3 {
+        font-size: 1.5vw;
+    }
+    .Service p {
+        font-size: 1.2vw;
+    }
 }

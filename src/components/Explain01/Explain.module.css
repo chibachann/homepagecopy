@@ -105,9 +105,40 @@
         grid-template-rows: 1fr 1fr;
     }
     .TextCards p{
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
         font-size: 1.7vw;
     }
 }
 
+@media (min-width:1081px) {
+    .Section {
+        padding: 5vw 0 10vw 0;
+    }
+    .Grid {
+        grid-template-columns: var(--grid-columns-pc);
+        grid-auto-rows: var(--grid-rows-pc);
+    }
+    .Title {
+        width: 70%;
+    }
+    .Title h3 {
+        font-size: 1.5vw;
+    }
+    .Title h2 {
+        font-size: 2.4vw;
+    }
+    .Text {
+        grid-column: 7/12;
+        justify-self: center;
+        width: 80%;
+        font-size: 1.2vw;
+    }
+    .TextCards {
+        width: 75%;
+        column-gap: 2vw;
+    }
+    .TextCards p{
+        font-size: 1.5vw;
+    }
+}
 

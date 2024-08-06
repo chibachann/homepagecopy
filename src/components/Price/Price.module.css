@@ -62,3 +62,26 @@
         grid-row: span 5;
     }
 }
+
+@media (min-width:1081px) {
+    .Section {
+        padding: 5vw 0;
+    }
+    .Grid {
+        grid-template-columns: var(--grid-columns-pc);
+        grid-auto-rows: var(--grid-rows-pc);
+    }
+    .Title {
+        grid-row: span 2;
+    }
+    .Title h1 {
+        font-size: 4vw;
+    }
+    .Title h2 {
+        font-size: 2vw;
+    }
+    .Text {
+        width: 60%;
+        font-size: 1.3vw;
+    }
+}

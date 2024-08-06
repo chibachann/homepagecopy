@@ -91,18 +91,22 @@
 }
 
 @media (min-width: 1081px) {
+    .Section {
+        padding: 5vw 0 10vw 0;
+    }
     .Grid {
         grid-template-columns: var(--grid-columns-pc);
         grid-auto-rows: var(--grid-rows-pc);
     }
 
     .Title {
-        grid-column: 2/-1;
-        grid-row: span 3;
+        grid-column: 1/-1;
+        grid-row: span 2;
+        width: 80%;
     }
     .Title h1 {
         font-family: var(--font-family-eg);
-        font-size: 7vw;
+        font-size: 5vw;
         font-weight: 500;
     }
     .Title h2 {
@@ -112,17 +116,20 @@
     }
 
     .Image {
-        justify-self: center;
-        width: 100%;
-        grid-column: 2 / 8;
+        justify-self: end;
+        align-self: center;
+        height: 90%;
+        width: 80%;
+        grid-column: 1 / 7;
         grid-row: span 6;
     }
 
     .Text {
+        align-self: start;
         justify-self: center;
-        width: 80%;
-        grid-column: 8/-1;
-        grid-row: span 6;
+        width: 70%;
+        grid-column: 7/12;
+        grid-row: span 5;
     }
     .Text p {
         font-size: 1.2vw;

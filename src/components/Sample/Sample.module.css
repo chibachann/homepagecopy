@@ -49,3 +49,18 @@
         font-size: 3vw;
     }
 }
+
+@media (min-width:1081px) {
+
+    .Grid {
+        grid-template-columns: var(--grid-columns-pc);
+        grid-auto-rows: var(--grid-rows-pc);
+    }
+
+    .Title h1 {
+        font-size: 5vw;
+    }
+    .Title h2 {
+        font-size: 2.5vw;
+    }
+}
