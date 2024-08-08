@@ -37,6 +37,10 @@
     font-size: 3.7vw;
     line-height: 1.7;
 }
+.Text span {
+    font-weight: 700;
+    background: linear-gradient(transparent 70%, rgba(255, 179, 0, 0.55) 30%);
+}
 
 .Services {
     grid-column: 1/-1;
