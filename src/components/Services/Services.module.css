@@ -63,6 +63,7 @@
     width: 80%;
     grid-column: 3/-1;
     grid-row: span 1;
+    background: linear-gradient(transparent 70%, rgba(255, 153, 0, 0.55) 30%);
 }
 .Text {
     justify-self: center;

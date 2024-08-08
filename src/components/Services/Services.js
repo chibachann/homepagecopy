@@ -11,27 +11,27 @@ const Services = () => {
                 </div>
                 <div className={styles.Services}>
                     <div className={styles.Service}>
-                        <img src="/images/settings.svg" alt="settings" className={styles.Image}/>
+                        <img src="/images/homepage.svg" alt="settings" className={styles.Image}/>
                         <h3>1. ホームページ制作</h3>
                         <p className={styles.Text}>
-                            お客様のビジネスに合わせたホームページを制作します。
+                            お客様のビジネスに合わせたホームページを制作します。<br/>
                             デザインからコーディングまで一貫して対応し、お客様の要望に応じたホームページを制作します。
                         </p>
                     </div>
                     <div className={styles.Service}>
-                        <img src="/images/settings.svg" alt="settings" className={styles.Image}/>
-                        <h3>2. ホームページ制作</h3>
+                        <img src="/images/setting.svg" alt="settings" className={styles.Image}/>
+                        <h3>2. ホームページ改修</h3>
                         <p className={styles.Text}>
-                            お客様のビジネスに合わせたホームページを制作します。
-                            デザインからコーディングまで一貫して対応し、お客様の要望に応じたホームページを制作します。
+                            古くなったホームページや、集客につながらないホームページを改修します。<br/>
+                            お客様のビジネスに合ったホームページにリニューアルします。
                         </p>
                     </div>
                     <div className={styles.Service}>
-                        <img src="/images/settings.svg" alt="settings" className={styles.Image}/>
-                        <h3>3. ホームページ制作</h3>
+                        <img src="/images/picture.svg" alt="settings" className={styles.Image}/>
+                        <h3>3. ブログサイト制作</h3>
                         <p className={styles.Text}>
-                            お客様のビジネスに合わせたホームページを制作します。
-                            デザインからコーディングまで一貫して対応し、お客様の要望に応じたホームページを制作します。
+                            お客様の魅力を伝えるブログサイトを制作します。<br/>
+                            より信頼されるお店になるためのブログサイト作りをサポートします。
                         </p>
                     </div>
                 </div>
